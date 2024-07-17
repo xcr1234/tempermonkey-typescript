@@ -1,0 +1,26 @@
+{
+  "name": "tamp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "build:sync": "tsc && vite build --mode sync",
+    "start:server": "node server.cjs"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.6",
+    "@types/node": "^20.14.11",
+    "chokidar": "3.4.3",
+    "dialog": "0.3.1",
+    "glob": "7.1.6",
+    "open": "7.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^5.2.2",
+    "upath": "2.0.1",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
