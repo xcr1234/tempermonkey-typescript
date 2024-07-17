@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
-    "build:sync": "tsc && vite build --mode sync",
+    "build:sync": "tsc && vite build --watch --mode sync",
     "start:server": "node server.cjs"
   },
   "devDependencies": {
